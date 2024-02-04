@@ -1,7 +1,8 @@
 "use strict";
 var _a;
-let user = [1, "josh"];
-console.log(user[0].toString());
+let myTuple = [1, "josh"];
+console.log(myTuple[0].toString());
+console.log(myTuple[1].toUpperCase);
 let size = "m";
 console.log(size);
 function calculateTax(income) {

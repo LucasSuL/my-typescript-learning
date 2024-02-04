@@ -1,5 +1,3 @@
 "use strict";
-const sum = (a, b) => {
-    return a + b;
-};
+let arr = ["a", "b", "c"];
 //# sourceMappingURL=main.js.map

@@ -1,6 +1,7 @@
 // tuple: an array that could contain different types of elements in it (have order)
-let user: [number, string] = [1, "josh"];
-console.log(user[0].toString());
+let myTuple: [number, string] = [1, "josh"];
+console.log(myTuple[0].toString());
+console.log(myTuple[1].toUpperCase);
 
 // if not explicitly assign values, the default value type will be number (0, 1, 2...)
 // enum: prefix with 'const' will make ts compiler generate a more simpler js code

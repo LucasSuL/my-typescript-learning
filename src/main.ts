@@ -1,3 +1,1 @@
-const sum = (a: number, b:string) => {
-  return a + b;
-};
+let arr = ["a", "b", "c"];
