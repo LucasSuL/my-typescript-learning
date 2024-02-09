@@ -88,13 +88,13 @@ processValue(null); // valid input
 
 // optional chain
 // if we are not sure about whether an object or addtribute is valid or not, just add "?"
-type Customer = {
+type Person = {
   date?: Date;
 };
 
-function getCustomer(id: number): Customer | null | undefined {
+function getCustomer(id: number): Person | null | undefined {
   if (id === 0) return null;
   else return { date: new Date() };
 }
-let customer = getCustomer(1);
-console.log(customer?.date?.getFullYear());
+let person = getCustomer(1);
+console.log(person?.date?.getFullYear());

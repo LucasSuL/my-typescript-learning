@@ -52,6 +52,6 @@ function getCustomer(id) {
     else
         return { date: new Date() };
 }
-let customer = getCustomer(1);
-console.log((_a = customer === null || customer === void 0 ? void 0 : customer.date) === null || _a === void 0 ? void 0 : _a.getFullYear());
-//# sourceMappingURL=basics.js.map
+let person = getCustomer(1);
+console.log((_a = person === null || person === void 0 ? void 0 : person.date) === null || _a === void 0 ? void 0 : _a.getFullYear());
+//# sourceMappingURL=00-basics.js.map

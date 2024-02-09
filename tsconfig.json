@@ -108,5 +108,5 @@
   },
   "include":[
     "src"
-, "basics.ts"  ] //ignore any ts file that is not in 'src' directory
+, "src/00-basics.ts"  ] //ignore any ts file that is not in 'src' directory
 }
